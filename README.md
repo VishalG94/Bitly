@@ -23,15 +23,13 @@ NoSQL Cache Database: This Database is an implementation of the 5-Node AP Key-Va
 
 https://www.youtube.com/watch?v=8cWiiPTZz3M&ab_channel=VishalGadapa
 
-### Heroku Deployment
-
-<img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Screenshots/Heroku.png">
-
-
 ### FrontEnd
 
 <img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Screenshots/Frontend.png">
 
+### Heroku Deployment
+
+<img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Screenshots/Heroku.png">
 
 ### Sampe API Request Responses 
 

@@ -17,7 +17,7 @@ NoSQL Cache Database: This Database is an implementation of the 5-Node AP Key-Va
 
 ### Architecture Diagram
 
-<img width="900" alt="ClassDiagram" src="https://github.com/nguyensjsu/cmpe281-vishalg94/blob/master/cloud/bitly/Artifacts/Architecture_Diagram/Final_Architecture_Diagram.png">
+<img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Architecture_Diagram/Final_Architecture_Diagram.png">
 
 ### Youtube link
 
@@ -25,7 +25,12 @@ https://www.youtube.com/watch?v=8cWiiPTZz3M&ab_channel=VishalGadapa
 
 ### Heroku Deployment
 
-<img width="900" alt="ClassDiagram" src="https://github.com/nguyensjsu/cmpe281-vishalg94/blob/master/cloud/bitly/Artifacts/Screenshots/Heroku.png">
+<img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Screenshots/Heroku.png">
+
+
+### FrontEnd
+
+<img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Screenshots/Frontend.png">
 
 
 ### Sampe API Request Responses 
@@ -97,7 +102,7 @@ curl --location --request GET 'http://34.221.223.237:8000/lr/lr/1g3h' \
 --header 'apikey: secretkey'
 
 #### Response
-<img width="900" alt="ClassDiagram" src="https://github.com/nguyensjsu/cmpe281-vishalg94/blob/master/cloud/bitly/Artifacts/Screenshots/Screen%20Shot%202020-12-09%20at%2010.50.19%20PM.png">
+<img width="900" alt="ClassDiagram" src="https://github.com/VishalG94/Bitly/blob/main/Artifacts/Screenshots/Screen%20Shot%202020-12-09%20at%2010.50.19%20PM.png">
 
 
 Trend Server - Trending Links

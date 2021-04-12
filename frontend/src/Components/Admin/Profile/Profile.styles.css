@@ -1,0 +1,41 @@
+.userdetails {
+  display: flex;
+  width: 80%;
+  position: relative;
+  left: 20%;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 800px;
+  align-content: center;
+}
+.userdetails .addressOptions {
+  display: flex;
+  width: 60%;
+  height: 250px;
+
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+}
+
+.option {
+  width: 800px;
+  display: flex;
+  /* padding: 15px; */
+  justify-content: flex-end;
+}
+
+.profile input {
+  width: 250px;
+  margin-left: 10px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #fff;
+  text-align: center;
+}
+
+.profile {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+Docker image:
+
+// Create docker container
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=cmpe281 -p 4306:3306 -d mysql:5.5
+
+// Install mysql-clinet
+brew install mysql-client
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+// Create Database
+create database bitly;
+
+// Create user
+create user cmpe281;
+grant all on bitly.* to 'cmpe281'@'%' identified by 'cmpe281';
+flush privileges ; 
+
+// Connect to docker mysql
+mysql -h localhost -P 4306 --protocol=tcp -u cmpe281 -p
+
+// Create table
+CREATE TABLE shortlinks (
+id varchar(255) NOT NULL UNIQUE,
+url varchar(255) NOT NULL UNIQUE,
+shortlink varchar(255) NOT NULL UNIQUE,
+count bigint(20) NOT NULL,
+PRIMARY KEY (id)
+) ;
+	
+// Insert dummy data to check
+insert into shortlinks ( id, url, shortlink) values ( 1, 'https://www.youtube.com/watch?v=S4ugBZmctKA', 'abckded' ) ;
+
+// Truncate table

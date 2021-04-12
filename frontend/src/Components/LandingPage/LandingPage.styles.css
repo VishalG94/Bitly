@@ -1,0 +1,30 @@
+.homeLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.homeText {
+  /* color: white; */
+  /* position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 40%; */
+}
+
+.homeTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.homeSubtext {
+  font-size: 020x;
+  width: 500px;
+}
+
+.howToImage img {
+  margin-left: 50%;
+  max-width: 10%;
+  max-height: 10%;
+}

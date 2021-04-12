@@ -1,0 +1,26 @@
+.loginPage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  /* justify-content: space-around; */
+}
+.loginPage .loginImage {
+  /* width: 50%; */
+  /* height: max-content; */
+  left: 0%;
+  object-fit: cover;
+
+}
+
+.loginPage .loginImage .image {
+  width: 50vw;
+}
+
+.loginPage .logincomponents {
+  position: relative;
+
+  left: 10%;
+
+  align-content: center;
+}
